@@ -10,10 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.PortfolioApp">
         <activity
-            android:name=".activity_signup"
+            android:name=".SignupScreen"
             android:exported="false" />
         <activity
-            android:name=".activity_login"
+            android:name=".LoginScreen"
             android:label="Login"
             android:exported="false" />
         <activity

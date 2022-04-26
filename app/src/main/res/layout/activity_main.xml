@@ -10,8 +10,7 @@
         android:layout_width="400dp"
         android:layout_height="400dp"
         android:layout_centerInParent="true"
-        android:src="@drawable/splash_screen_image">
-    </ImageView>
+        android:src="@drawable/splash_screen_image"></ImageView>
 
     <TextView
         android:layout_width="wrap_content"
@@ -19,9 +18,18 @@
         android:text="Protfolio App"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="110dp"
+        android:layout_marginBottom="160dp"
         android:textSize="25sp"
-        android:fontFamily="sans-serif-medium"
+        android:fontFamily="@font/montserrat_medium"
         />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Let's go"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="80dp"
+        android:id="@+id/button_letsGo"/>
 
 </RelativeLayout>
