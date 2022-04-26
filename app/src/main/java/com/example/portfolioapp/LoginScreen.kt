@@ -17,12 +17,11 @@ class LoginScreen : AppCompatActivity() {
             startActivity(intent)
 
             Toast.makeText(applicationContext, "Login Successfully!", Toast.LENGTH_LONG).show()
-
-            val signupButton = findViewById(R.id.button_signup) as Button
-            signupButton.setOnClickListener {
-                val intent = Intent(this, SignupScreen::class.java)
-                startActivity(intent)
-            }
+        }
+        val signupButton = findViewById(R.id.button_signup) as Button
+        signupButton.setOnClickListener {
+            val intent = Intent(this, SignupScreen::class.java)
+            startActivity(intent)
         }
     }
 }

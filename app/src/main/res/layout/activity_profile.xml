@@ -193,18 +193,17 @@
         android:layout_marginTop="10dp"/>
 
     <Button
-        android:id="@+id/button_signup"
+        android:id="@+id/button_resume"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/text_phoneNumber"
+        android:layout_centerHorizontal="true"
         android:layout_marginLeft="20sp"
         android:layout_marginTop="15dp"
-        android:layout_centerHorizontal="true"
         android:background="@drawable/button_background"
         android:text="RESUME"
         android:textColor="@color/white"
-        android:textSize="20sp"
-        />
+        android:textSize="20sp" />
 
 
 
