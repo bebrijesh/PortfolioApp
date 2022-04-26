@@ -9,13 +9,16 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.PortfolioApp">
+
+        <activity
+            android:name=".ProfileScreen"
+            android:exported="true" />
         <activity
             android:name=".SignupScreen"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".LoginScreen"
-            android:label="Login"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".MainActivity"
             android:exported="true">
