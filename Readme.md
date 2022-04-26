@@ -3,4 +3,8 @@
 - Simple portfolio app made with kotlin.
 
 # Screenshots
-<img src="screenshot/Splash_Screen.png" width=150><img src="screenshot/Login_Screen.png" width=150><img src="screenshot/Signup_Screen.png" width=150><img src="screenshot/Profile_Screen.png" width=150>
+<img src="screenshots/splash_screen.png" width=150>
+<img src="screenshots/login_screen.png" width=150>
+<img src="screenshots/signup_screen.png" width=150>
+<img src="screenshots/profile_screen.png" width=150>
+<img src="screenshots/info_screen.png" width=150>
