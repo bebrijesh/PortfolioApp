@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
+import android.widget.Toast
 
 class SignupScreen : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -14,6 +15,8 @@ class SignupScreen : AppCompatActivity() {
         signupButton.setOnClickListener {
             val intent = Intent(this, ProfileScreen::class.java)
             startActivity(intent)
+
+            Toast.makeText(applicationContext, "Signup Successfully!", Toast.LENGTH_LONG).show()
         }
     }
 }
